@@ -89,10 +89,10 @@ Args:
 
 Input image                |  Output image
 :-------------------------:|:-------------------------: | 
-![](results/mad.png)   |  ![](results/mad_gamma.png)
+![](results/cats.png)   |  ![](results/cats_gamma.png)
 Input image Histogram      |  Output Image Histogram
 :-------------------------:|:-------------------------: | 
-![](results/mad_histo.png)   |  ![](results/mad_gamma_histo.png)
+![](results/cats_histo.png)   |  ![](results/cats_gamma_histo.png)
 
 ### **4. Histogram Stretch** 
 
@@ -167,9 +167,9 @@ Args:
 
 Input image                |  Output Blur   | 
 :-------------------------:|:-------------------------: 
-![](results/mad.png)       |  ![](results/mad_blur_both.png)|
-Input image Histogram      | Output No Dither Histogram | 
-![](results/mad_histo.png) |  ![](results/mad_blur_both_histo.png) |
+![](results/mad.png)       |  ![](results/mad_blur.png)|
+Input image Histogram      | Output Image Histogram | 
+![](results/mad_histo.png) |  ![](results/mad_blur_histo.png) |
 Blur horizontally          | Blur Vertically                 | 
 ![](results/mad_blur_x.png) |  ![](results/mad_blur_y.png) |  
 
@@ -238,5 +238,5 @@ to yield the output image stored in `I2`. The saturated values are properly clip
 Input image                |  Output Image low factor   |  Output Image high factor   |
 :-------------------------:|:-------------------------: | :-------------------------: |
 ![](results/mad.png)       |  ![](results/mad_sharpen_low.png)| ![](results/mad_sharpen_high.png)
-Input image Histogram      | Output No Dither Histogram | Output Dither Histogram     |
+Input image Histogram      | Output histogram low factor | Output Histogram high factor|
 ![](results/mad_histo.png) |  ![](results/mad_sharpen_low_histo.png) | ![](results/mad_sharpen_high_histo.png)
