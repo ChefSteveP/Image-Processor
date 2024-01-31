@@ -2,7 +2,10 @@
 
 Written September-October of 2023
 
+**Note for Recruiters:** Since this was part of a class project I have not included my code publicly, if you would like to view it please reach out and request it.
+
 These functions I completed for COMS 4165: Pixel Processing. 
+All implemented in C++. Without the use of packages like opencv.
 They perform various image-processing tasks for photo editing and other operations. 
 Functions headers were provided, but implementation was my own work. 
 
